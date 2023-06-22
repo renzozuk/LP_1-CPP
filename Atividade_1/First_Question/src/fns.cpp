@@ -3,12 +3,13 @@
 #include "../include/fns.h"
 using namespace std;
 
-void funcionario::getFunc(string nm, double wg, string depat){
-    name = nm; department = depat;
-    if(wg < 1320){
-        wage = 1320;
+void funcionario::getFunc(string name, double wage, string department){
+    this->name = name; this->department = department;
+    if(wage < 1320){
+        //this will define the minimum wage
+        this->wage = 1320;
     }else{
-        wage = wg;
+        this->wage = wage;
     }
 }
 
