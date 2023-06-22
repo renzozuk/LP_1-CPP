@@ -1,13 +1,11 @@
 #include <iostream>
-#include <string>
 #include <vector>
-#include <algorithm>
 #include "../include/fns.h"
 using namespace std;
 
 int main(){
-    vector<funcionario> func;
-    vector<string> depataux;
+    //the menu in the main.cpp file will be improved soon
+    vector<funcionario> func; vector<string> depataux;
     funcionario funci; int i, cm; char cml;
     funci.getFunc("Aracy da Silva", 1390, "Cadastro e Controle");
     func.push_back(funci);
