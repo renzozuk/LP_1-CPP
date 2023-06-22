@@ -1,8 +1,6 @@
 #ifndef FNS_H
 #define FNS_H
 
-/*#include <iostream>
-#include <string>*/
 using namespace std;
 
 class funcionario{
