@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     zoo z;
     
-    //add animals to zoo (name, specie, age)
+    //add animals to zoo (name, species, age)
     z.addAnimal("Luan", "pássaro", 2);
     z.addAnimal("Bartolomeu", "jaguatirica", 3);
     z.addAnimal("Loki", "lobo", 3);
